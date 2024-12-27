@@ -16,7 +16,7 @@ const Hero = () => {
         spaceBetween={30}
         effect={'fade'}
         autoplay={{
-          delay: 1000,
+          delay: 60000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, EffectFade]}
