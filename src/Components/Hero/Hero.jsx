@@ -24,7 +24,7 @@ const Hero = () => {
       >
         <SwiperSlide>
           <div className="lg:p-20 hero-slide-1 p-10 rounded-3xl mt-8 flex flex-col items-start gap-8 ">
-            <h1 className="lg:text-7xl text-5xl font-semibold text-black">Dont miss amazing grocery deals
+            <h1 className="lg:text-7xl text-5xl font-semibold text-black">Dont miss amazing <br /> grocery deals
             </h1>
             <p className="text-2xl lg:text-3xl text-gray-500">Sign Up for Daily Update of Our Special Deals</p>
             <div
@@ -46,7 +46,7 @@ const Hero = () => {
 
         <SwiperSlide>
           <div className="lg:p-20 hero-slide-2 p-10 rounded-3xl mt-8 flex flex-col items-start gap-8">
-            <h1 className="lg:text-7xl text-5xl font-semibold text-black">Fresh Vegetables Big Discounts
+            <h1 className="lg:text-7xl text-5xl font-semibold text-black">Fresh Vegetables <br /> Big Discounts
             </h1>
             <p className="text-2xl lg:text-3xl text-gray-500">Save upto 50% off on your first order</p>
             <div
