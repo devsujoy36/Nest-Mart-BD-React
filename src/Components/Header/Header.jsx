@@ -1,22 +1,14 @@
-import navLogo from '../../../public/assets/svgs/logo.svg'
 
 const Header = () => {
 
-  let toggle = true;
-  const navMenuHandler = () => {
-    if (toggle) {
-      toggle = false;
-    } else {
-      toggle = true;
-    }
-  }
+ 
   return (
-    <header className=" rounded shadow-lg py-2 bg-white  blurNav top-0 w-full ">
+    <div className=" rounded border py-2 bg-white  blurNav top-0 w-full ">
       <nav className="bg-white lg:py-4 pr-6 flex justify-between lg:justify-around items-center gap-2 lg:flex-row relative">
         <a id="nav-logo" href="" className=" active:scale-95 transition flex justify-center items-center"> <img
-          className="w-8/12 " src={navLogo} alt="" /> </a>
+          className="w-8/12 " src='../../../public/assets/svgs/logo.svg' alt="" /> </a>
         <label className="btn btn-circle swap swap-rotate lg:hidden " id="">
-          <input onClick={navMenuHandler} type="checkbox" />
+          <input type="checkbox" />
 
           <svg className="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
             viewBox="0 0 512 512">
@@ -99,7 +91,7 @@ const Header = () => {
           </svg>
         </label>
       </div>
-    </header>
+    </div>
   )
 }
 

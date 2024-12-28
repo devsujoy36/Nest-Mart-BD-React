@@ -11,19 +11,19 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Hero = () => {
   return (
-    <div>
+    <div className='max-w-screen-2xl md:mx-auto mx-10'>
       <Swiper
         spaceBetween={30}
         effect={'fade'}
         autoplay={{
-          delay: 60000,
+          delay: 1000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, EffectFade]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="lg:p-20 hero-slide-1 p-10 rounded-3xl mt-8 flex flex-col items-start gap-8 ">
+        <SwiperSlide className=''>
+          <div className="lg:p-20 w-full hero-slide-1 p-10 rounded-3xl mt-8 flex flex-col items-start gap-8 ">
             <h1 className="lg:text-7xl text-5xl font-semibold text-black">Dont miss amazing <br /> grocery deals
             </h1>
             <p className="text-2xl lg:text-3xl text-gray-500">Sign Up for Daily Update of Our Special Deals</p>
@@ -44,8 +44,8 @@ const Hero = () => {
         </SwiperSlide>
 
 
-        <SwiperSlide>
-          <div className="lg:p-20 hero-slide-2 p-10 rounded-3xl mt-8 flex flex-col items-start gap-8">
+        <SwiperSlide className='w-full'>
+          <div className="lg:p-20 w-full hero-slide-2 p-10 rounded-3xl mt-8 flex flex-col items-start gap-8">
             <h1 className="lg:text-7xl text-5xl font-semibold text-black">Fresh Vegetables <br /> Big Discounts
             </h1>
             <p className="text-2xl lg:text-3xl text-gray-500">Save upto 50% off on your first order</p>

@@ -23,16 +23,14 @@
 
 .hero-slide-2 {
   text-align: left;
-  width: 80vw;
-  background-image: url('../../../public/assets/slider/slider-1.png');
+  background-image: url('../../../public/assets/slider/slider-2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .hero-slide-1 {
   text-align: left;
-  width: 80vw;
-  background-image: url('../../../public/assets/slider/slider-2.png');
+  background-image: url('../../../public/assets/slider/slider-1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
