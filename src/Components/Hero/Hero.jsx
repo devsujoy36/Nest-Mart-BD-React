@@ -1,12 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 import './Hero.css';
 
-// import required modules
 import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Hero = () => {
@@ -29,8 +27,8 @@ const Hero = () => {
             <p className="text-2xl lg:text-3xl text-gray-500">Sign Up for Daily Update of Our Special Deals</p>
             <div
               className="bg-white flex rounded-full justify-between items-center lg:gap-4 gap-1 mt-8 overflow-hidden">
-              <div>
-                <img className="pl-3 lg:pl-6" src="../../../public/assets/icon-plane.png" alt="" />
+              <div className='lg:ml-5 ml-3'>
+                <img className="" src="../../../public/assets/others/icon-plane.png" alt="" />
               </div>
 
               <input className="focus:outline-none text-sm lg:text-lg bg-white text-black  w-4/6" type="email"
@@ -51,8 +49,8 @@ const Hero = () => {
             <p className="text-2xl lg:text-3xl text-gray-500">Save upto 50% off on your first order</p>
             <div
               className="bg-white flex rounded-full justify-center items-center lg:gap-4 gap-1 mt-8 overflow-hidden">
-              <div>
-                <img className="pl-3 lg:pl-6" src="../../../public/assets/icon-plane.png" alt="" />
+              <div className='lg:ml-5 ml-3'>
+                <img className="" src="../../../public/assets/others/icon-plane.png" alt="" />
               </div>
               <input className="focus:outline-none text-sm lg:text-lg  bg-white text-black w-4/6" type="email"
                 placeholder="Your email address" />

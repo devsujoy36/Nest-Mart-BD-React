@@ -3,8 +3,9 @@ const Header = () => {
 
  
   return (
-    <div className=" rounded border py-2 bg-white  blurNav top-0 w-full ">
-      <nav className="bg-white lg:py-4 pr-6 flex justify-between lg:justify-around items-center gap-2 lg:flex-row relative">
+    <div className="  rounded border py-2 md:px-10 top-0 w-full ">
+
+      <nav className="max-w-screen-2xl lg:mx-auto mx-10 bg-white  lg:py-4  flex justify-between items-center gap-2 lg:flex-row relative">
         <a id="nav-logo" href="" className=" active:scale-95 transition flex justify-center items-center"> <img
           className="w-8/12 " src='../../../public/assets/svgs/logo.svg' alt="" /> </a>
         <label className="btn btn-circle swap swap-rotate lg:hidden " id="">
@@ -59,7 +60,7 @@ const Header = () => {
       </nav>
 
 
-      <div id="nav-menu-for-moble"
+      <nav id="nav-menu-for-moble"
         className="flex-col hidden p-4 absolute top-24 -mt-7  right-8 border bg-white  shadow-lg rounded-lg">
         <a href="#"
           className="lg:text-lg font-semibold lg:py-2 lg:px-4 px-2 py-1 hover:bg-emerald-400 text-emerald-400 hover:text-white active:scale-90 rounded transition">Home</a>
@@ -90,7 +91,7 @@ const Header = () => {
               d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
           </svg>
         </label>
-      </div>
+      </nav>
     </div>
   )
 }

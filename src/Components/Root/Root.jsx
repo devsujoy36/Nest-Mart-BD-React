@@ -6,20 +6,22 @@ import Hero from "../Hero/Hero"
 import PopularProducts from "../PopularProducts/PopularProducts"
 import Servicess from "../Servicess/Servicess"
 import StayHome from "../StayHome/StayHome"
-import TopSelling from "../TopSelling/TopSelling"
+import TopSellingContainer from "../TopSelling/TopSellingContainer"
 
 const Root = () => {
   return (
     <div>
-        <Header/>
-        <Hero/>
-        <FeaturedCategories/>
-        <PopularProducts/>
-        <DailyBestSells/>
-        <TopSelling/>
-        <StayHome/>
-        <Servicess/>
-        <Footer/>
+      <Header />
+      <div className="md:mx-20">
+        <Hero />
+        <FeaturedCategories />
+        <PopularProducts />
+        <DailyBestSells />
+        <TopSellingContainer />
+        <StayHome />
+        <Servicess />
+        <Footer />
+      </div>
     </div>
   )
 }
