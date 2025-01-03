@@ -48,7 +48,7 @@ const Hero = () => {
             </h1>
             <p className="text-2xl lg:text-3xl text-gray-500">Save upto 50% off on your first order</p>
             <div
-              className="bg-white flex rounded-full justify-center items-center lg:gap-4 gap-1 mt-8 overflow-hidden">
+              className="bg-white flex rounded-full justify-center items-center lg:gap-4 gap-1 mt-8 overflow-hidden"> 
               <div className='lg:ml-5 ml-3'>
                 <img className="" src="../../../public/assets/others/icon-plane.png" alt="" />
               </div>
